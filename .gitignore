@@ -1,0 +1,33 @@
+# Ignore Visual Studio generated files
+ALL_BUILD.vcxproj
+ZERO_CHECK.vcxproj
+ALL_BUILD.vcxproj.filters
+ZERO_CHECK.vcxproj.filters
+ALL_BUILD.vcxproj.user
+AWS-SpeechRecognition.vcxproj.user
+.vs
+
+# Ignore AWS SDK logs
+aws_sdk_*.log
+
+# Ignore build and output directories
+build/
+out/
+Debug/
+Release/
+x64/
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakePresets.json
+
+# Ignore vcpkg files
+vcpkg-configuration.json
+vcpkg-manifest-install.log
+vcpkg.json
+vcpkg_installed/
+
+# Ignore AWS dir
+AWS-SpeechRecognition.dir
+
